@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 
 app.use(
   cors({
-    origin: "https://dreamgreentour.netlify.app/",
+    origin: "*",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
     optionsSuccessStatus: 200,
