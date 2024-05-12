@@ -10,7 +10,10 @@ const port = 8000;
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://dreamgreentour.netlify.app/"
+  );
   next();
 });
 
