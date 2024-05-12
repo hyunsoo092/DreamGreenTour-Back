@@ -1,0 +1,92 @@
+
+  {
+    "themeTrip" : [
+
+      {
+        "id" : 1,
+        "title" : "겨울이라 좋은 대전 상소동 산림욕장",
+        "content" : "19000",
+        "region": "[경기]",
+        "isChecked" : false
+      },
+      {
+        "id" : 2,
+        "title" : "여름 벚꽃 여행,기차 여행",
+        "content" : "26000",
+        "region": "[전국]",
+        "isChecked" : false
+      },
+      {
+        "id" : 3,
+        "title" : "여수 돌산 투어, 요트투어 패키지",
+        "content" : "50000",
+        "region": "[인천]",
+        "isChecked" : false
+      },
+      {
+        "id" : 4,
+        "title" : "얼음동산,우암사적공원",
+        "content" : "42000",
+        "region": "[인천]",
+        "isChecked" : false
+      },
+      {
+        "id" : 5,
+        "title" : "동그라미,우암사적공원",
+        "content" : "19000",
+        "region": "[송도]",
+        "isChecked" : false
+      },
+      {
+        "id" : 6,
+        "title" : "겨울이라 좋은 대전 상소동 산림욕장, 얼음동산,우암사적공원",
+        "content" : "15000",
+        "region": "[대전]",
+        "isChecked" : false
+      },
+      {
+        "id" : 7,
+        "title" : "경의선 숲길",
+        "content" : "10000",
+        "region": "[경기]",
+        "isChecked" : false
+      },
+      {
+        "id" : 8,
+        "title" : "리움 미술관",
+        "content" : "19000",
+        "region": "[서울]",
+        "isChecked" : false
+      },
+      {
+        "id" : 9,
+        "title" : "동대문 DDP",
+        "content" : "61000",
+        "region": "[동대문]",
+        "isChecked" : false
+      },
+      {
+        "id" : 10,
+        "title" : "서울 식물원",
+        "content" : "35000",
+        "region": "[서울]",
+        "isChecked" : false
+      },
+      {
+        "id" : 11,
+        "title" : "압구정 커플링 만들기 체험",
+        "content" : "42000",
+        "region": "[인천]",
+        "isChecked" : false
+      },
+      {
+        "id" : 12,
+        "title" : "나이키 에어포스 커스텀 체험",
+        "content" : "121,000",
+        "region": "[서울]",
+        "isChecked" : false
+      }
+    ]
+
+
+  }
