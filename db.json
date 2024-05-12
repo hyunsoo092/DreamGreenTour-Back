@@ -1,92 +1,295 @@
+{
+    "themeTrip": [
+        {
+            "id": 1,
+            "title": "겨울이라 좋은 대전 상소동 산림욕장",
+            "content": "19000",
+            "region": "[경기]",
+            "isChecked": false
+        },
+        {
+            "id": 2,
+            "title": "여름 벚꽃 여행,기차 여행",
+            "content": "26000",
+            "region": "[전국]",
+            "isChecked": false
+        },
+        {
+            "id": 3,
+            "title": "여수 돌산 투어, 요트투어 패키지",
+            "content": "50000",
+            "region": "[인천]",
+            "isChecked": false
+        },
+        {
+            "id": 4,
+            "title": "얼음동산,우암사적공원",
+            "content": "42000",
+            "region": "[인천]",
+            "isChecked": false
+        },
+        {
+            "id": 5,
+            "title": "동그라미,우암사적공원",
+            "content": "19000",
+            "region": "[송도]",
+            "isChecked": false
+        },
+        {
+            "id": 6,
+            "title": "겨울이라 좋은 대전 상소동 산림욕장, 얼음동산,우암사적공원",
+            "content": "15000",
+            "region": "[대전]",
+            "isChecked": false
+        },
+        {
+            "id": 7,
+            "title": "경의선 숲길",
+            "content": "10000",
+            "region": "[경기]",
+            "isChecked": false
+        },
+        {
+            "id": 8,
+            "title": "리움 미술관",
+            "content": "19000",
+            "region": "[서울]",
+            "isChecked": false
+        },
+        {
+            "id": 9,
+            "title": "동대문 DDP",
+            "content": "61000",
+            "region": "[동대문]",
+            "isChecked": false
+        },
+        {
+            "id": 10,
+            "title": "서울 식물원",
+            "content": "35000",
+            "region": "[서울]",
+            "isChecked": false
+        },
+        {
+            "id": 11,
+            "title": "압구정 커플링 만들기 체험",
+            "content": "42000",
+            "region": "[인천]",
+            "isChecked": false
+        },
+        {
+            "id": 12,
+            "title": "나이키 에어포스 커스텀 체험",
+            "content": "121,000",
+            "region": "[서울]",
+            "isChecked": false
+        }
+    ],
 
-  {
-    "themeTrip" : [
+    "hotelData": [
+        {
+            "id": 1,
+            "local": "서울",
+            "grade": "5.0",
+            "korName": "서울 신라 호텔",
+            "engName": "Seoul Shilla Hotel",
+            "address": "서울시청 부근에 위치",
+            "price": "1000000",
+            "hotelpicture":"/img/hotel/서울신라호텔_1_공공3유형.jpg"
+        },
+        {
+            "id": 2,
+            "local": "서울",
+            "grade": "5.0",
+            "korName": "포시즌스호텔 서울",
+            "engName": "Four Seasons Hotel Seoul",
+            "address": "롯데백화점 부근에 위치",
+            "price": "550000",
+            "hotelpicture":"/img/hotel/롯데시티호텔 구로_1_공공3유형.jpg"
+        },
+        {
+            "id": 3,
+            "local": "서울",
+            "grade": "5.0",
+            "korName": "그랜드 인터컨티넨탈 서울 파르나스",
+            "engName": "Grand Intercontinental Icparnas Seoul",
+            "address": "삼성역 부근에 위치",
+            "price": "600000",
+            "hotelpicture":"/img/hotel/그랜드 인터컨티넨탈 서울 파르나스_1_공공3유형.jpg"
+        },
+        {
+            "id": 4,
+            "local": "서울",
+            "grade": "4.0",
+            "korName": "로얄호텔서울",
+            "engName": "Royal Hotel Seoul",
+            "address": "명동",
+            "price": "150000",
+            "hotelpicture":"/img/hotel/로얄호텔서울_1_공공3유형.jpg"
+        },
+        {
+            "id": 5,
+            "local": "서울",
+            "grade": "5.0",
+            "korName": "JW 메리어트 호텔 서울",
+            "engName": "JW Marriott Hotel Seoul",
+            "address": "서울 고속 버스 터미널 위치",
+            "price": "700000",
+            "hotelpicture":"/img/hotel/JW 메리어트 호텔 서울(JW Marriott Hotel Seoul)_1_공공3유형.png"
+        },
+        {
+            "id": 6,
+            "local": "서울",
+            "grade": "4.0",
+            "korName": "아만티호텔서울",
+            "engName": "Amanti Hotel Seoul",
+            "address": "홍대입구역 위치",
+            "price": "230000",
+            "hotelpicture":"/img/hotel/아만티호텔서울_1_공공3유형.jpg"
+        },
+        {
+            "id": 7,
+            "local": "서울",
+            "grade": "3.0",
+            "korName": "나인브릭호텔",
+            "engName": "9Brick Hotel",
+            "address": "홍대입구역 위치",
+            "price": "100000",
+            "hotelpicture":"/img/hotel/나인브릭호텔_1_공공3유형.jpg"
+        },
+        {
+            "id": 8,
+            "local": "서울",
+            "grade": "4.0",
+            "korName": "롯데호텔 L7 강남",
+            "engName": "L7 Lotte Hotel GangNam",
+            "address": "선릉역 부근 위치",
+            "price": "200000",
+            "hotelpicture":"/img/hotel/롯데호텔 L7 강남_1_공공3유형.jpg"
+        },
+        {
+            "id": 9,
+            "local": "서울",
+            "grade": "5.0",
+            "korName": "파크 하얏트 호텔",
+            "engName": "Park Hyatt Hotel",
+            "address": "삼성역",
+            "price": "400000",
+            "hotelpicture":"/img/hotel/파크 하얏트 서울_1_공공3유형.jpg"
+        },
+        {
+            "id": 10,
+            "local": "서울",
+            "grade": "4.0",
+            "korName": "락고재 서울 북촌 한옥호텔",
+            "engName": "Rokgojae Hanok Hotel",
+            "address": "안국역 부근 위치",
+            "price": "700000",
+            "hotelpicture":"/img/hotel/락고재 서울 북촌 한옥호텔[한국관광 품질인증_Korea Quality]_1_공공3유형.jpg"
+        }
+    ],
 
-      {
-        "id" : 1,
-        "title" : "겨울이라 좋은 대전 상소동 산림욕장",
-        "content" : "19000",
-        "region": "[경기]",
-        "isChecked" : false
-      },
-      {
-        "id" : 2,
-        "title" : "여름 벚꽃 여행,기차 여행",
-        "content" : "26000",
-        "region": "[전국]",
-        "isChecked" : false
-      },
-      {
-        "id" : 3,
-        "title" : "여수 돌산 투어, 요트투어 패키지",
-        "content" : "50000",
-        "region": "[인천]",
-        "isChecked" : false
-      },
-      {
-        "id" : 4,
-        "title" : "얼음동산,우암사적공원",
-        "content" : "42000",
-        "region": "[인천]",
-        "isChecked" : false
-      },
-      {
-        "id" : 5,
-        "title" : "동그라미,우암사적공원",
-        "content" : "19000",
-        "region": "[송도]",
-        "isChecked" : false
-      },
-      {
-        "id" : 6,
-        "title" : "겨울이라 좋은 대전 상소동 산림욕장, 얼음동산,우암사적공원",
-        "content" : "15000",
-        "region": "[대전]",
-        "isChecked" : false
-      },
-      {
-        "id" : 7,
-        "title" : "경의선 숲길",
-        "content" : "10000",
-        "region": "[경기]",
-        "isChecked" : false
-      },
-      {
-        "id" : 8,
-        "title" : "리움 미술관",
-        "content" : "19000",
-        "region": "[서울]",
-        "isChecked" : false
-      },
-      {
-        "id" : 9,
-        "title" : "동대문 DDP",
-        "content" : "61000",
-        "region": "[동대문]",
-        "isChecked" : false
-      },
-      {
-        "id" : 10,
-        "title" : "서울 식물원",
-        "content" : "35000",
-        "region": "[서울]",
-        "isChecked" : false
-      },
-      {
-        "id" : 11,
-        "title" : "압구정 커플링 만들기 체험",
-        "content" : "42000",
-        "region": "[인천]",
-        "isChecked" : false
-      },
-      {
-        "id" : 12,
-        "title" : "나이키 에어포스 커스텀 체험",
-        "content" : "121,000",
-        "region": "[서울]",
-        "isChecked" : false
-      }
+    "airDefData": [
+        {
+            "id": 1,
+            "departure": "김포",
+            "flightName": "대한항공",
+            "departureTime": "9:00",
+            "departureEngName": "GMP"
+        },
+        {
+            "id": 2,
+            "departure": "김포",
+            "flightName": "대한항공",
+            "departureTime": "10:00",
+            "departureEngName": "GMP"
+        },
+        {
+            "id": 3,
+            "departure": "김포",
+            "flightName": "대한항공",
+            "departureTime": "11:55",
+            "departureEngName": "GMP"
+        },
+        {
+            "id": 4,
+            "departure": "김포",
+            "flightName": "대한항공",
+            "departureTime": "13:00",
+            "departureEngName": "GMP"
+        },
+        {
+            "id": 5,
+            "departure": "김포",
+            "flightName": "대한항공",
+            "departureTime": "14:00",
+            "departureEngName": "GMP"
+        }
+    ],
+
+    "airArrData": [
+        {
+            "id": 1,
+            "arrival": "제주",
+            "arrivalTime": "10:05",
+            "arrivalEngName": "CJU"
+        },
+        {
+            "id": 2,
+            "arrival": "제주",
+            "arrivalTime": "11:05",
+            "arrivalEngName": "CJU"
+        },
+        {
+            "id": 3,
+            "arrival": "제주",
+            "arrivalTime": "13:00",
+            "arrivalEngName": "CJU"
+        },
+        {
+            "id": 4,
+            "arrival": "제주",
+            "arrivalTime": "14:05",
+            "arrivalEngName": "CJU"
+        },
+        {
+            "id": 5,
+            "arrival": "제주",
+            "arrivalTime": "15:05",
+            "arrivalEngName": "CJU"
+        }
+    ],
+
+    "airTimeData": [
+        {
+            "id": 1,
+            "flightTime": "1시간 5분",
+            "directType": "직항",
+            "price": "100000"
+        },
+        {
+            "id": 2,
+            "flightTime": "1시간 5분",
+            "directType": "직항",
+            "price": "200000"
+        },
+        {
+            "id": 3,
+            "flightTime": "1시간 5분",
+            "directType": "직항",
+            "price": "300000"
+        },
+        {
+            "id": 4,
+            "flightTime": "1시간 5분",
+            "directType": "직항",
+            "price": "400000"
+        },
+        {
+            "id": 5,
+            "flightTime": "1시간 5분",
+            "directType": "직항",
+            "price": "500000"
+        }
     ]
-
-
-  }
+}
