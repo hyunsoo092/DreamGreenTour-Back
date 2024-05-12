@@ -10,7 +10,7 @@ const port = 8000;
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "*",
   credentials: true, // 인증 정보를 포함하도록 허용
 };
 
