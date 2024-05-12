@@ -9,12 +9,19 @@ const port = 8000;
 
 app.use(bodyParser.json());
 
-const corsOptions = {
-  origin: "*",
-  credentials: true, // 인증 정보를 포함하도록 허용
-};
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
 
-app.use(cors(corsOptions));
+app.use(
+  cors({
+    origin: "*",
+    method: ["GET", "POST", "DELETE", "PUT"],
+    credentials: true,
+    optionsSuccessStatus: 200,
+  })
+);
 app.use("/", router);
 
 app.listen(port, () => {
